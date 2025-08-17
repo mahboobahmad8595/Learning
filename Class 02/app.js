@@ -50,6 +50,12 @@
 // Dynamic Website → Content change hota hai user ya data ke hisaab se.
 // Example: Facebook, YouTube)
 
+//! Syntax
+
+// var a = 10;
+// console.log(a);
+// Note : input me variable name likhte hain. aur output me uski value show hoti he
+
 //! Key Words For Create Variables
 
 // 1. None of these
@@ -59,11 +65,11 @@
 
 //! Rules of Write Variable Name
 
-// Sirf letters, digits, $, _ allowed.
-// Number se start nahi kar sakte.
-// Case-sensitive hote hain.
-// Spaces allowed nahi.
-// JS keywords use nahi kar sakte (var)
+// Sirf letters, digits, $, _ allowed.    var @gmail = mahboob
+// Number se start nahi kar sakte.        var 8username = mahboob 
+// Case-sensitive hote hain.              var name = mahboob
+// Spaces allowed nahi.                   var user name = mahboob
+// JS keywords use nahi kar sakte (var)   var var = mahboob
 
 //! Cases
 
@@ -75,48 +81,3 @@
 // Camel  Case : firstName    (Front-End)
 // Snake  Case : first_name   (Back-End)
 // Pascal Case : FirstName    (React)
-
-//! Data
-
-// 1. Primitive Data      : Single value , Complex nahi hota
-// 2. Non-Primitive Data  : Multiples value , Complex hota hai
-
-//! Primitive Data
-
-// 1. String : "Hello World" 'Hello World' `Hello World`
-// 2. Number : 10;
-// 3. boolean : true / false
-// 4. undefined : var a; , var a = undefined
-// 5. null : null
-
-// Examples
-// var a = "Hello world"
-// var b = 20;
-// var c = true;
-// var d = undefined;
-// var e = null ;
-// console.log(typeof a);
-// console.log(typeof b);
-// console.log(typeof c);
-// console.log(typeof d);
-// console.log(typeof e);
-
-//! Non-Primitive Data
-
-// 1. Object     
-// 2. Array
-// 3. Function
-
-
-// 2. Array
-
-// var fruits = ["Apple" , "Mango" , "Banana"];
-// console.log(fruits);
-// var fruits = ["Apple" , "Mango" , "Banana"];
-// console.log(fruits[1]);
-
-//! Syntax
-
-// var a = 10;
-// console.log(a);
-// Note : input me variable name likhte hain. aur output me uski value show hoti he
