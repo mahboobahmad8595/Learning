@@ -5,11 +5,11 @@
 
 //! Primitive Data
 
-// 1. String : "Hello World" 'Hello World' `Hello World`
-// 2. Number : 10;
-// 3. boolean : true / false
-// 4. undefined : var a; , var a = undefined
-// 5. null : null
+// 1. String :      "Hello World" , 'Hello World' , `Hello World`
+// 2. Number :      10 , +10 , -10 , 10.5                           //Integer & Decimal
+// 3. boolean :     true / false
+// 4. undefined :   var a; , var a = undefined
+// 5. null :        null                                            //DT Of Null = (Object) Bug
 
 // Examples
 // var a = "Hello world"
