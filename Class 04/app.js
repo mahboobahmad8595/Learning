@@ -3,10 +3,9 @@
 // 2. Assignment Operators
 // 3. Comparison Operators
 // 4. Logical Operators
-// 5. Bitwise Operators
-// 6. String Operators
-// 7. Conditional
-// 8. Type Operators
+// 5. Conditional
+// 6. Type Operators
+// 7. Unary Operators
 
 //! Arithemetic Operators
 
@@ -33,7 +32,7 @@
 // console.log(--c);
 // console.log(d--);
 
-//! Precedence
+//! Precedence (PEMDAS & BODMAS)
 // 1. ()   
 // 2. **	             
 // 3. * , / , %	         
@@ -42,8 +41,8 @@
 //! Associativity in Math Operators
 // Operators that have the same precedence are evaluated according to their associativity:
 
-// L to R associativity: + , - , * , /
-// R to L associativity: ** 
+// L to R associativity:   + , - , * , /
+// R to L associativity:   ** 
 
 //! Practice
 
@@ -57,3 +56,32 @@
 // console.log(c);
 // console.log(d);
 // console.log(e);
+
+//! Concatenating
+
+// 1 String + String = String
+// var a = "10";
+// var b = "10";
+// console.log(a + b);
+
+// 2. Number + String = String 
+// var a = 10;
+// var b = "10";
+// console.log(a + b);
+
+// 3. Number -,*,/ String = Number
+// var a = 10;
+// var b = "10";
+// console.log(a - b);
+
+
+//! Assignment Operator
+
+// 1. Simple Assignment               =
+// 2. Addition Assignment            +=
+// 3. Subtraction Assignment         -=
+// 4. Multiplication Assignment      *=
+// 5. Division Assignment            /=
+// 6. Remainder Assignment           %=
+// 7. Exponentiation Assignment     **=
+

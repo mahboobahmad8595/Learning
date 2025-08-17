@@ -29,12 +29,41 @@
 // 2. Array
 // 3. Function
 
-
-// 2. Array
+//! 2. Array
 
 // var fruits = ["Apple" , "Mango" , "Banana"];
 // console.log(fruits);
-// var fruits = ["Apple" , "Mango" , "Banana"];
-// console.log(fruits[1]);
+
+// Terms
+// 1. Elements       Apple Mango Banana
+// 2. Indexing       0      1     2
+// 3. Seperator      ,
 
 
+//! Specific Element
+// var veg = ["potato" , "tomamto" , "onion"];
+// console.log(veg[1]);
+// console.log(veg[0]);
+// console.log(veg.length);
+
+//! Change
+// var veg = ["potato" , "tomamto" , "onion"];
+// veg[1] = "lemon";
+// console.log(veg);
+
+//! Add
+// var veg = ["potato" , "tomamto" , "onion"];
+// veg [3] = "lemon"
+// console.log(veg);
+
+//! Practice
+
+// Ans 1
+// var veg = ["potaton" , "tomato" , "onion" , "lemon" , "cucumber"]
+// console.log(veg[0]);
+// console.log(veg[4]);
+
+// Ans 2
+// var veg = ["potaton" , "tomato" , "onion" , "lemon" , "cucumber"]
+// veg[5] = "malik"; 
+// console.log(veg);
