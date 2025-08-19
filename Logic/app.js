@@ -1,8 +1,16 @@
-// var fruit1 = "Apple";
-// var fruit2 = "Mango";
-// var fruit3 = "Banana";
+//! Table
 
-// console.log(fruit1);
-// console.log(fruit2);
-// console.log(fruit3);
+// var a = prompt("Enter a number for table");
+// var b = 1;
+// var c = 1;
+// console.log(a + " * " + b++ + " = " + a*c++);
+// console.log(a + " * " + b++ + " = " + a*c++);
+// console.log(a + " * " + b++ + " = " + a*c++);
+// console.log(a + " * " + b++ + " = " + a*c++);
+// console.log(a + " * " + b++ + " = " + a*c++);
+// console.log(a + " * " + b++ + " = " + a*c++);
+// console.log(a + " * " + b++ + " = " + a*c++);
+// console.log(a + " * " + b++ + " = " + a*c++);
+// console.log(a + " * " + b++ + " = " + a*c++);
+// console.log(a + " * " + b++ + " = " + a*c++);
 

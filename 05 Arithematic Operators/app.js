@@ -3,11 +3,11 @@
 // 2. Assignment Operators
 // 3. Comparison Operators
 // 4. Logical Operators
-// 5. Conditional
+// 5. Conditional Operators
 // 6. Type Operators
 // 7. Unary Operators
 
-//! Arithemetic Operators
+//! 1. Arithemetic Operators
 
 // 1. Add                   5  + 5 = 5
 // 2. Subtract              5  - 5 = 0
@@ -18,7 +18,7 @@
 // 7. Increment             ++a , a++ 
 // 8. Decrement             --a , a--
 
-//! Increment & Decrement
+//? Increment & Decrement
 // 1. Pre       Calculate → Print       ++a , --a          
 // 2. Post      Print     → Calculate   a++ , a--
 
@@ -32,19 +32,19 @@
 // console.log(--c);
 // console.log(d--);
 
-//! Precedence (PEMDAS & BODMAS)
+//? Precedence (PEMDAS & BODMAS)
 // 1. ()   
 // 2. **	             
 // 3. * , / , %	         
 // 4. + , -
 
-//! Associativity in Math Operators
+//? Associativity in Math Operators
 // Operators that have the same precedence are evaluated according to their associativity:
 
 // L to R associativity:   + , - , * , /
 // R to L associativity:   ** 
 
-//! Practice
+//? Practice
 
 // var a = 2 + 2;
 // var b = 2 ** 3 ** 2;
@@ -56,6 +56,7 @@
 // console.log(c);
 // console.log(d);
 // console.log(e);
+
 
 //! Concatenating
 
@@ -74,14 +75,4 @@
 // var b = "10";
 // console.log(a - b);
 
-
-//! Assignment Operator
-
-// 1. Simple Assignment               =
-// 2. Addition Assignment            +=
-// 3. Subtraction Assignment         -=
-// 4. Multiplication Assignment      *=
-// 5. Division Assignment            /=
-// 6. Remainder Assignment           %=
-// 7. Exponentiation Assignment     **=
 
