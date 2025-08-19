@@ -37,3 +37,30 @@
 // 2. var
 // 3. let
 // 4. const
+
+//! Difference 
+
+//?  Keyword         Scope           Redeclare           Reinitalize
+//   var             Function        Yes                 Yes
+//   Let             Block           No                  Yes
+//   Const           Block           No                  No
+
+//? Examples 
+
+// 1. Var
+// var name = "Ali";
+// var name = "Ahmed";  // Allowed (redeclaration)
+// name = "Usman";      // Allowed (reinitialization)
+// console.log(name);   // Output: Usman
+
+// 2. Let
+// let age = 20;
+// let age = 25;        //  Error (redeclaration not allowed)
+// age = 30;            //  Allowed (reinitialization)
+// console.log(age);    //  Output: 30
+
+// 3. Const
+// const country = "Pakistan";
+// country = "India";
+// const country = "China";
+// console.log(country); // Output: Pakistan
