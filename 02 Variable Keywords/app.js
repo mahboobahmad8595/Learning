@@ -40,6 +40,25 @@
 
 //! Difference 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 //?  Keyword         Scope           Redeclare           Reinitalize
 //   var             Function        Yes                 Yes
 //   Let             Block           No                  Yes
