@@ -1,3 +1,14 @@
+//! Programming
+// 1. Operators
+// 2. Data Types
+// 3. Control Flow
+// 4. Loops
+// 5. Functions
+// 6. Objects & Arrays
+// 7. Events
+// 8. DOM Manipulation
+// 9. Advanced Topics
+
 //! Operators
 // 1. Arithemetic Operators
 // 2. Assignment Operators
