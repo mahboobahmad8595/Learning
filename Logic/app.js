@@ -72,7 +72,7 @@
 
 //! Can you go abroad ?
 
-// var age = prompt("Enter Your Age");
+// var age = prompt("Enter Your Age"); 
 // var qualification = prompt("Enter Your Qualificaion");
 
 // if(age >= 18 && qualification >= 10){
@@ -137,3 +137,5 @@
 // else{
 //     alert("25 Fail!")
 // }
+
+
