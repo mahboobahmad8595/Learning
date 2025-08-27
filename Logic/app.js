@@ -138,4 +138,32 @@
 //     alert("25 Fail!")
 // }
 
+//! 1. Enter Your Correct Email & Password to Login   (Weak)
 
+// var userEmail = prompt("Enter Your Email")
+// var userPassword = prompt("Enter Your Password")
+
+// if(userEmail === "mahboob@gmail.com" && userPassword === "mahboob123"){
+//     alert("Log In Success")
+// }
+// else {
+//     alert("Log In Failed!")
+// }
+
+//! 2. Enter Your Correct Email & Password to Login   (Strong)
+
+// var userEmail = prompt("Enter Your Email")
+// var userPassword = prompt("Enter Your Password")
+
+// if(userEmail === "mahboob@gmail.com"){
+
+//     if(userPassword === "mahboob123"){
+//         alert("Log In Success");
+//     }
+//     else{
+//         alert("Wrong Password")
+//     }
+// }
+// else {
+//     alert("Wrong Email")
+// }

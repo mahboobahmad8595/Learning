@@ -56,8 +56,10 @@
 //! OR GATE & AND GATE
 
 // 1. OR GATE           ||          // Koi Ek Value True Ho
-// 2. AND GATE          &&          // ALl Values True hon
+// 2. AND GATE          &&          // Dono Values True hon   (Precidence Zyada)
 
+
+//? AND GATE Example &&
 // var age = prompt("Enter Your Age");
 // var qualification = prompt("Enter Your Qualificaion");
 
@@ -71,12 +73,15 @@
 // var marks = prompt("Enter Your Marks");
 // var hasAmmount = prompt("Enter Your Amount");
 
+
+//? OR GATE Example
 // if(marks >= 70 || hasAmmount >= 10000){
 //     console.log("You Can Join Us");
 // }
 // else{
 //     console.log("You Cant Join Us");
 // }
+
 
 //! Differnt Ways
  
