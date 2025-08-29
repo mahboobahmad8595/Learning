@@ -47,31 +47,62 @@
 
 //! Methods
 
-// unshift()    → array ke start me value add karta hai
-// shift()      → array ke start se value remove karta hai
-// push()       → array ke end me new value add karta hai
-// pop()        → array ke end se last value remove karta hai
+// 1. .unshift()    → array ke start me value add karta hai.
+// 2. .shift()      → array ke start se value remove karta hai.
+// 3. .push()       → array ke end me new value add karta hai.
+// 4. .pop()        → array ke end se last value remove karta hai.
+// 5. .splice()     → array ke andar kahin bhi value add & remove karta he.
+// 6. .slice()      → array ki copy bnata ha.
 
-//! Unshift
+//! 1. Unshift
 
 // var fruits = ["Apple" , "Mango" , "Banana"];
 // fruits.unshift("Orange");
 // console.log(fruits);
 
-//! Shift
+//! 2. Shift
 
 // var fruits = ["Apple" , "Mango" , "Banana"];
 // fruits.shift();
 // console.log(fruits);
 
-//! Push
+//! 3. Push
 
 // var fruits = ["Apple" , "Mango" , "Banana"];
 // fruits.push("Orange");
 // console.log(fruits);
 
-//! Pop
+//! 4. Pop
 
 // var fruits = ["Apple" , "Mango" , "Banana"];
 // fruits.pop();
 // console.log(fruits);
+
+//! 5. Splice
+
+// Syntax : var.splice[ StartIndex , Remove , Items Add ];
+
+// Add
+
+// var fruits = ["Apple" , "Mango" , "Banana"];
+// fruits.splice(1,0,"Orange");
+// console.log(fruits);
+
+// Remove
+
+// var fruits = ["Apple" , "Mango" , "Banana"];
+// fruits.splice(1,1);
+// console.log(fruits);
+
+// Add & Remove
+
+// var fruits = ["Apple" , "Mango" , "Banana"];
+// fruits.splice(1,1,"Orange");
+// console.log(fruits);
+
+//! 6. Slice
+
+// Syntax : var.splice[ Start Index , End Index ];
+
+// var fruits = ["Apple" , "Mango" , "Banana" , "Orange"];
+// console.log(fruits.slice(1,3));
