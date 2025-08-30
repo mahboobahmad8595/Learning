@@ -48,9 +48,9 @@
 //! Methods
 
 // 1. .unshift()    → array ke start me value add karta hai.
-// 2. .shift()      → array ke start se value remove karta hai.
+// 2. .shift()      → array ke start se value remove karta hai. aur return bhi karta he
 // 3. .push()       → array ke end me new value add karta hai.
-// 4. .pop()        → array ke end se last value remove karta hai.
+// 4. .pop()        → array ke end se last value remove karta hai. aur return bhi karta he
 // 5. .splice()     → array ke andar kahin bhi value add & remove karta he.
 // 6. .slice()      → array ki copy bnata ha.
 
@@ -63,8 +63,9 @@
 //! 2. Shift
 
 // var fruits = ["Apple" , "Mango" , "Banana"];
-// fruits.shift();
+// var remove = fruits.shift();                     // Remove & Return 
 // console.log(fruits);
+// console.log(remove);
 
 //! 3. Push
 
@@ -75,8 +76,9 @@
 //! 4. Pop
 
 // var fruits = ["Apple" , "Mango" , "Banana"];
-// fruits.pop();
+// var remove = fruits.pop();                        // Remove & Return
 // console.log(fruits);
+// console.log(remove);
 
 //! 5. Splice
 
