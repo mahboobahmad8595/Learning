@@ -1,0 +1,28 @@
+/*! Selectors
+
+1. Simple Selectors
+2. Combinator Selectors
+
+/*! Simple Selectors
+
+1. Universal                 * {color: red;}
+2. Element / Type           h1 {color: red;}
+3. Class                .class {color: red;}
+4. Id                      #id {color: red;}
+
+/*! Combinator Selectors
+
+1. Direct Child             ol > li {color: red;}                       
+2. Descendant               ol  li  {color: red;}          
+3. Adjacent Sibling         h1 + p  {color: red;}           
+4. General Sibling          h1 ~ p  {color: red;}           
+
+/*! Priority 
+
+1. !important               h1{color:red !important;}         
+2. Inline Style             <h1 style=”color: green;”> CSS <h1>        
+3. Id                       #h1 {color: blue;}           
+4. Class                    .h1  {color: purple;}          
+5. Element                   h1  {color: pink;}              
+ 
+ 
