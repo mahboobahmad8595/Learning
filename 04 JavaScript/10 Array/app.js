@@ -1,18 +1,7 @@
-//! Data
-
-// 1. Primitive Data      : Single value , Complex nahi hota
-// 2. Non-Primitive Data  : Multiples value , Complex hota hai
-
-//! Non-Primitive Data
-
-// 1. Object     
-// 2. Array
-// 3. Function
-
-//!______________________{ Array} ___________________________\\
+//! Array
 
 
-//! Create Create Array
+//! Create Array
 
 // var fruits = ["Apple" , "Mango" , "Banana"];
 // console.log(fruits);
@@ -33,7 +22,7 @@
 // var fruits = ["Apple" , "Mango" , "Banana"];
 // console.log(fruits.length); // 3
 
-//! Change Value
+//! Change Value / Reinitialize
 
 // var fruits = ["Apple" , "Mango" , "Banana"];
 // fruits[0] = "Orange"; 
