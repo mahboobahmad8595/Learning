@@ -23,6 +23,23 @@
 // console.log(typeof d);
 // console.log(typeof e);
 
+
+//! String
+// 1. Single Quotes         → 'Hello'
+// 2. Double Quotes         → "Hello"
+// 3. Backticks Quotes      → `Hello`
+
+
+//! Number
+// 1. Integer       → 5, -20, 100
+// 2. Decimal       → 3.14, -0.5, 2.718
+// 3. Positive      → 10, 25.7
+// 4. Negative      → -5, -99.99
+// 5. Zero          → 0
+// 6. Infinity      → Infinity, -Infinity
+// 7. NaN           → NaN                       // Not a Number
+// 8. BigInt        → 12345678901234567890n
+
 //! Mutafariqaat
 
 // alert("Hello World!")

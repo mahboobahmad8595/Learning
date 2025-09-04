@@ -3,11 +3,6 @@
 // 2. Data Types
 // 3. Control Flow
 // 4. Loops
-// 5. Functions
-// 6. Objects & Arrays
-// 7. Events
-// 8. DOM Manipulation
-// 9. Advanced Topics
 
 
 
@@ -99,3 +94,16 @@
 // 3. IF .. ELSE IF .. IF            
 // 4. switch
 // 5. ?:
+
+
+
+//?____________________{Loop Start}____________________\\
+
+
+
+//! Loop
+// 1. for
+// 2. while
+// 3. do...while
+// 4. for...in
+// 5. for...of 
