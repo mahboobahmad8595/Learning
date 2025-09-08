@@ -1,6 +1,6 @@
-//! Chapter 01
+//! Chapter 12 - 13
 
-// Ans 1
+//? Ans 1
 
 // var character = prompt("Enter a Chracter");
 // if(character >= 48 && character <= 57){
@@ -15,3 +15,24 @@
 // else{
 //     alert("Other")
 // }
+
+//? Ans 2
+
+// var num1 = +prompt("Enter a num1");
+// var num2 = +prompt("Enter a num2");
+
+// if(num1 > num2){
+
+//     if(num2 < num1){
+//         console.log(num1);
+//     }
+// }
+// else if(num1 < num2){
+//     console.log(num2);
+// }
+// else if (num1 === num2){
+//     alert("Equal")
+// }
+    
+
+

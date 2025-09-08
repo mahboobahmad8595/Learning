@@ -34,9 +34,9 @@
 //! Reference
 // Array ka Reference(Location) Save hota he na ke value. jab ke deegar ki value save hoti he
 
-// console.log("" === "");
-// console.log(1 === 1);
-// console.log(true === true);
+// console.log("" === "");          // True
+// console.log(1 === 1);            // True
+// console.log(true === true);      // True
 
 // a = [] == 0.1 = reference 
 // b = [] == 0.2 = reference
@@ -81,11 +81,11 @@
 // fruits[3] = "Orange";
 // console.log(fruits);
 
-// var pets = [];
-// pets[0] = "Dogs";
-// pets[1] = "Cats";
-// pets[10] = "Birds"       // Empty * 8
-// console.log(pets);
+// var fruits = [];
+// fruits[0] = "Apple";
+// fruits[1] = "Mango";
+// fruits[10] = "Banana"       // Empty * 8
+// console.log(fruits);
 
 //! Methods
 // 1. .unshift()    → array ke start me value add karta hai.
@@ -151,15 +151,20 @@
 
 
 //! 6. Slice
-// Syntax : var.splice[ Start Index , End Index ];
+// Syntax : var.splice[ Start Index , End Index ];  
+// Note : Start Index Add hoga End Index nahi
 
+//? Straight
 // var fruits = ["Apple" , "Mango" , "Banana" , "Orange"];
-// console.log(fruits.slice(1,3));
+// console.log(fruits.slice(1,3)); // Mango , Banana
 
+//? Reverse
 // var cars = ["Supra" , "Rolls Royce" , "Grande" , "BMW" , "Mehran"];
 // var lastTwoCars = cars.slice(-2);
 // console.log(lastTwoCars);
 // console.log(cars);
 
+//? Complete Array Copy 
+// var cars = ["Supra" , "Rolls Royce" , "Grande" , "BMW" , "Mehran"];
 // var copyArr = cars.slice(0);
 // console.log(copyArr);

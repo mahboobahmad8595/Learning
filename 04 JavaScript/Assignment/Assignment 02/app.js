@@ -1,4 +1,4 @@
-//! Chapter 01
+//! Chapter 05
 
 //? Ans 1
 
@@ -134,7 +134,7 @@
 // document.write("Estimated Maximum Age: " + maximumAge + "<br />");
 // document.write("You will need " + ( ((maximumAge - currentAge) * perDay) + " " + snack) + " to last you until the ripe old age of " + maximumAge);
 
-//! Chapter 02
+//! Chapter 06
 
 //? Ans 1
 
@@ -204,7 +204,7 @@
 // document.write("Urdu " + subMarks + " " + urdu + " " + urdu / subMarks * 100 + "%" + "<br />");
 // document.write("Total " + totalMarks + " " + totalObtained + " " + totalPercentage + "%");
 
-//! Chapter 03
+//! Chapter 09
 
 //? Ans 1
 
