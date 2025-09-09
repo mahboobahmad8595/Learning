@@ -134,3 +134,59 @@
 // else{
 //     alert("Enter a Valid Time")
 // }
+
+//! Chapter 13 - 15
+
+//? Ans 1
+
+// var students = [];
+
+//? Ans 2
+
+// var students {};
+
+//? Ans 3
+
+// var students = ["Mahboob" , "Ahmad" , "Ali"]
+
+//? Ans 4
+
+// var students = [1 , 2 , 3]
+
+//? Ans 5
+
+// var students = [true , false]
+
+//? Ans 6
+
+// var students = ["Mahboob" , 1 , true , null , undefined]
+
+//? Ans 7
+
+// var qualifications = ["SSC", "HSC", "BCS" , "BS" , "BCOM" , "MS" , "M. Phil" , "PhD"]
+// document.write("<h1> Qualifications </h1>")
+// document.write("1) " + qualifications[0] + "<br />")
+// document.write("2) " + qualifications[1] + "<br />")
+// document.write("3) " + qualifications[2] + "<br />")
+// document.write("4) " + qualifications[3] + "<br />")
+// document.write("5) " + qualifications[4] + "<br />")
+// document.write("6) " + qualifications[5] + "<br />")
+// document.write("7) " + qualifications[6] + "<br />")
+// document.write("8) " + qualifications[7] + "<br />")
+
+//? Ans 8
+
+// var students = ["Mahboob" , "Ahmad" , "Ali"]
+// var scores = [320 , 230 , 480]
+// var percentage = ["64%" , "46%" , "96%"]
+// document.write("Score of " + students[0] + " is " + scores[0] + " . Percentage:" + percentage[0] + "<br />")
+// document.write("Score of " + students[1] + " is " + scores[1] + " . Percentage:" + percentage[1] + "<br />")
+// document.write("Score of " + students[2] + " is " + scores[2] + " . Percentage:" + percentage[2] + "<br />")
+
+//? Ans 9
+
+// var colors = ["Red" , "Green" , "Blue"]
+// document.write(colors + "<br />")
+
+// colors.unshift("Yellow")
+// document.write(colors)
