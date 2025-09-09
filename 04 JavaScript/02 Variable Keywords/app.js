@@ -17,8 +17,8 @@
 
 // 3. Redeclaration
 // var city = "Lahore";  
-// var city = "Karachi";  
-// console.log(city);
+// var city = "Karachi";  *
+// console.log(city);     // Karachi
 
 // 4. Reinitialization
 // var name = "Ali";  
@@ -40,25 +40,6 @@
 
 //! Difference 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 //?  Keyword         Scope           Redeclare           Reinitalize
 //   var             Function        Yes                 Yes
 //   Let             Block           No                  Yes
@@ -66,20 +47,51 @@
 
 //? Examples 
 
-// 1. Var
-// var name = "Ali";
-// var name = "Ahmed";  // Allowed (redeclaration)
-// name = "Usman";      // Allowed (reinitialization)
-// console.log(name);   // Output: Usman
+//? 1. Var 
+// var name = "mahboob";
+// var name = "ahmad";
+// name = "khan";
+// console.log(name);        // khan
 
-// 2. Let
-// let age = 20;
-// let age = 25;        //  Error (redeclaration not allowed)
-// age = 30;            //  Allowed (reinitialization)
-// console.log(age);    //  Output: 30
+//? 2. Let
+// let name = "mahboob";
+// let name = "ahmad";       // Error: Dobara let keyword istemal nahi kar sakte
+// name = "khan";
+// console.log(name);        // khan
 
-// 3. Const
-// const country = "Pakistan";
-// country = "India";
-// const country = "China";
-// console.log(country); // Output: Pakistan
+//? 3. Const
+// const name = "mahboob";
+// const name = "ahmad";     // Error : Dobara const keyword istemal nahi kar sakte
+// name = "khan";            // Error : Value change nahi kar sakte
+// console.log(name);        // mahboob
+
+ 
+//! Scope
+// 1. Function     var 
+// 2. Block        let , const 
+
+
+//? 1. Function Scope
+// var check = true;
+// if(check === true){
+//    var name = "Mahboob";
+//    console.log(name);
+// }
+// console.log(name);
+
+
+//? 2. Block Scope
+// var check = true;
+// if(check === true){
+//     let name = "Mahboob";
+//     console.log(name);      // Chale ga
+// }
+// console.log(name);          // Nahi chale ga
+
+// var check = true;
+// if(check === true){
+//     const name = "Mahboob";
+//     console.log(name);      // Chale ga
+// }
+// console.log(name);          // Nahi chale ga
+
