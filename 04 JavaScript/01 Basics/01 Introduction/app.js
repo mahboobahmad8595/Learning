@@ -28,6 +28,7 @@
 
 // document.write("Hello World")
 // console.log("Hello World");
+// Console = Repel (Read , Evoluate , Print , Loop)
 
 //! Static 
 
