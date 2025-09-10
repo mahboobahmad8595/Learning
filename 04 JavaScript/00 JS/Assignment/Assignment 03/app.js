@@ -188,5 +188,66 @@
 // var colors = ["Red" , "Green" , "Blue"]
 // document.write(colors + "<br />")
 
-// colors.unshift("Yellow")
-// document.write(colors)
+// colors.unshift("Yellow")            // Shuru me color add
+// document.write(colors + "<br />")
+
+// colors.push("Orange")               // End me color add
+// document.write(colors + "<br />")
+
+// colors.unshift("Purple" , "Pink")
+// document.write(colors + "<br />")
+
+// colors.shift()
+// document.write(colors + "<br />")
+
+// colors.pop()
+// document.write(colors + "<br />")
+
+// colors.splice(2,0,"White")
+// document.write(colors + "<br />")
+
+// colors.splice(2,2,)
+// document.write(colors + "<br />")
+
+
+//? Ans 10 ??
+
+// var scores = [320 , 230 , 480 , 120] 
+// document.write("Scores of Students : " + scores + "<br />")
+
+// scores = [120 , 230 , 320 , 480] 
+// document.write("Ordered Scores of Students : " + scores)
+
+//? Ans 11
+
+// var cities = ["Karachi" , "Lahore" , "Islamabad" , "Quetta" , "Peshawar"]
+// document.write("Cities List : <br />" + cities + "<br />" )
+
+// var selectedCities = cities.slice(2,4)
+// document.write("Selected Cities List : <br />" + selectedCities  )
+
+//? Ans 12 ??
+
+// var arr = ["This" + "is" + "my" + "cat"];
+// document.write("Array : <br />" + arr + "<br />")
+
+// var string = arr[0] + arr[1] + arr[2] + arr[3] 
+// document.write("String : <br />" + string)
+
+//? Ans 13
+
+var devices = []
+devices.unshift("Keyboard")
+devices.unshift("Mouse")
+devices.unshift("Pointor")
+devices.unshift("Monitor")
+document.write("Devices : <br />" + devices + "<br /> <br />")
+document.write("Out: <br />" + devices[0] + "<br />")
+document.write("Out: <br />" + devices[1] + "<br />")
+document.write("Out: <br />" + devices[2] + "<br />")
+document.write("Out: <br />" + devices[3] + "<br />")
+ 
+
+
+
+//? Ans 14 
