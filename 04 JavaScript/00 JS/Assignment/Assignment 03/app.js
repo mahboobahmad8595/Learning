@@ -234,20 +234,39 @@
 // var string = arr[0] + arr[1] + arr[2] + arr[3] 
 // document.write("String : <br />" + string)
 
-//? Ans 13
+//? Ans 13 ??
 
-var devices = []
-devices.unshift("Keyboard")
-devices.unshift("Mouse")
-devices.unshift("Pointor")
-devices.unshift("Monitor")
-document.write("Devices : <br />" + devices + "<br /> <br />")
-document.write("Out: <br />" + devices[0] + "<br />")
-document.write("Out: <br />" + devices[1] + "<br />")
-document.write("Out: <br />" + devices[2] + "<br />")
-document.write("Out: <br />" + devices[3] + "<br />")
- 
+// var devices = ["Keyborad", "Mouse" , "Pointer" , "Monitor"]
 
+// devices[0] = "Keyborad";
+// devices[1] = "Mouse";
+// devices[2] = "Pointer";
+// devices[3] = "Monitor";
+// document.write("Devices : <br />" + devices + "<br /> <br />")
+// document.write("Out: <br />" + devices[0] + "<br />")
+// document.write("Out: <br />" + devices[1] + "<br />")
+// document.write("Out: <br />" + devices[2] + "<br />")
+// document.write("Out: <br />" + devices[3] + "<br />")
 
+//? Ans 14 ?? 
 
-//? Ans 14 
+// var devices = ["Keyborad", "Mouse" , "Pointer" , "Monitor"]
+
+// devices[0] = "Keyborad";
+// devices[1] = "Mouse";
+// devices[2] = "Pointer";
+// devices[3] = "Monitor";
+// document.write("Devices : <br />" + devices + "<br /> <br />")
+// document.write("Out: <br />" + devices[0] + "<br />")
+// document.write("Out: <br />" + devices[1] + "<br />")
+// document.write("Out: <br />" + devices[2] + "<br />")
+// document.write("Out: <br />" + devices[3] + "<br />")
+
+//? Ans 15 ??
+
+// var mobile = ["Apple", "Samsung", "Motorola", "Nokia", "Sony" , "Haier"]
+// document.write(mobile)
+
+//! Note
+
+// 10 , 12 , 13 , 14 ,15 //? Samjh Nahi aye
