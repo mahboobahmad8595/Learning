@@ -149,5 +149,34 @@
 // var sum = 0;
 // for(var i = 0; i < num.length; i++){
 //     sum += num[i];
-//     console.log(sum);
 // }
+// console.log(sum);
+
+//! Counting
+
+// var count = prompt("Enter a num to get factorial");
+// for(var i = 1; i <= count; i++){
+//     console.log(i);
+// }
+
+//! Simple Factorial 
+// var num = prompt("Enter a num to get factorial");
+// console.log(num * (num - 1) * (num - 2) * (num - 3) * (num - 4));
+
+//! Advance Factorial 
+// var num = (prompt("Enter a number:"));
+// var factorial = 1;
+
+// for (var i = 1; i <= num; i++) {
+//     factorial = factorial * i;
+// }
+// console.log("Factorial of " + num + " is: " + factorial);
+
+//? Solve 
+// 1 <= 5 True  → 1 = 1 * 1;   = 1
+// 2 <= 5 True  → 1 = 1 * 2;   = 2
+// 3 <= 5 True  → 2 = 2 * 3;   = 6
+// 4 <= 5 True  → 6 = 6 * 4;   = 24
+// 5 <= 5 True  → 24 = 24 * 5; = 120
+// 6 <= 5 False
+
