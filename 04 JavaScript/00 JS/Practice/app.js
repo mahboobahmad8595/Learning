@@ -94,21 +94,60 @@
 
 // console.table(m , a , h , b , o , o , b);
 
+//! Print 1 to 10
 // for(var i = 1; i <= 10; i++){
 //     console.log(i);
 // }
 
+//! Print 10 to 1
 // for(var i = 10; i > 0 ; i--){
 //     console.log(i);
 // }
 
+//! Simple Table 
 // var table = prompt("Enter a Num");
 // for(var i = 1; i <= 10; i++){
 //     console.log(table + " x " + i + " = " + table * i);
 // }
 
+//! Advance Table 
 // var table = prompt("Enter a Num");
 // var times = prompt("How many time do you want to multiply")
 // for(var i = 1; i <= times; i++){
 //     console.log(table + " x " + i + " = " + table * i);
+// }
+
+//! Odd Number Print 1 to 50
+// for(var i = 1; i <= 50; i += 2){
+//     console.log(i);
+// }
+
+//! Even Number Print 1 to 50
+// for(var i = 0; i <= 50; i += 2){
+//     console.log(i);
+// }
+
+//! Simple Sum
+// var num1 = +prompt("Enter a Num1")
+// var num2 = +prompt("Enter a Num2")
+// var num3 = +prompt("Enter a Num3")
+// var num4 = +prompt("Enter a Num4")
+// var num5 = +prompt("Enter a Num5")
+
+// console.log(num1 + num2 + num3 + num4 + num5);
+
+//! Advance Sum
+
+// var num = [
+//     +prompt("Enter num 1"),
+//     +prompt("Enter num 2"), 
+//     +prompt("Enter num 3"), 
+//     +prompt("Enter num 4"), 
+//     +prompt("Enter num 5") 
+// ]
+
+// var sum = 0;
+// for(var i = 0; i < num.length; i++){
+//     sum += num[i];
+//     console.log(sum);
 // }
