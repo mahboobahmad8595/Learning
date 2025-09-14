@@ -62,6 +62,33 @@ System Software
 4. Linux Os      (Hacker)
 
 Application SOftware
+1. Ms Word
+2. Ms Excel
+
+ShortCuts
+
+Ctrl + Shift + N            = Create New Folder
+F2                          = Rename
+Ctrl + D / Delete           = Delete
+Back Space                  = Text remove from left
+Delete                      = Text remove from right
+Ctrl + Backspace            = Word Remove
+Ctrl + C                    = Copy
+Ctrl + X                    = Cut
+Ctrl + v                    = Paste
+Ctrl + A                    = Select All
+Ctrl + Z                    = Undo
+Ctrl + Y                    = Redo 
+Ctrl + R                    = Refresh 
+Ctrl + S                    = Save
+Ctrl + + / M.Wheel          = Zoom In
+Ctrl + - / M.Wheel          = Zoom Out
+Ctrl + 0                    = Zoom (By Default)
+F11                         = Full Screen
+Alt + R / L Arrow           = Back
+
+    
+
 
 
 
