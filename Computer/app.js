@@ -1,0 +1,36 @@
+//! Parts Of Computer
+// 1. CPU
+// 2. Monitor
+// 3. Mouse
+// 4. Keyboard
+
+//! What is Computer ?
+// Compuer is an Electronic Data Processing Device.
+
+//! Elcectronic Data
+// 1. Image
+// 2. Audio
+// 3. Video
+// 4. Any File
+
+//! Input
+// Any order which is given by user to computer.
+// 1. Keyboard
+// 2. Mouse
+// 3. Scanner 
+// 4. Webcam
+// 5. Microphone
+
+//! Output
+// Answer of input.
+// 1. Monitor
+// 2. Speaker
+// 3. Printer
+// 4. Projector
+// 5. Plotter
+
+//! Hardware
+// Any mechanical parts of computer. // We can touch (Mouse , Keybord , Monitor)
+
+//? External Hardware
+//? Internal Hardware 
