@@ -180,3 +180,52 @@
 // 5 <= 5 True  → 24 = 24 * 5; = 120
 // 6 <= 5 False
 
+let fruits = ["Apple", "Banana", "Mango", "Orange", "Grapes", "Pineapple", "Strawberry", "Blueberry", "Kiwi", "Papaya"];
+let vegetables = ["Carrot", "Potato", "Tomato", "Onion", "Cabbage", "Spinach", "Broccoli", "Peas", "Corn", "Pumpkin"];
+let numbers = [5, 12, 7, 9, 20, 15, 3, 8, 11, 14];
+let colors = ["Red", "Blue", "Green", "Yellow", "Orange", "Purple", "Black", "White", "Pink", "Brown"];
+let animals = ["Cat", "Dog", "Elephant", "Tiger", "Lion", "Monkey", "Giraffe", "Zebra", "Bear", "Fox"];
+
+for (let i = 0; i < fruits.length; i++) {
+    if (fruits[i].length > 5) {
+        console.log(fruits[i] + " has more than 5 letters");
+    } else {
+        console.log(fruits[i] + " has 5 or less letters");
+    }
+}
+
+for (let i = 0; i < vegetables.length; i++) {
+    if (vegetables[i].includes("o")) {
+        console.log(vegetables[i] + " contains the letter 'o'");
+    } else {
+        console.log(vegetables[i] + " does not contain the letter 'o'");
+    }
+}
+
+for (let i = 0; i < numbers.length; i++) {
+    if (numbers[i] % 2 === 0) {
+        console.log(numbers[i] + " is even");
+    } else {
+        console.log(numbers[i] + " is odd");
+    }
+}
+
+for (let i = 0; i < colors.length; i++) {
+    if (colors[i].length <= 4) {
+        console.log(colors[i] + " is a short color name");
+    } else {
+        console.log(colors[i] + " is a long color name");
+    }
+}
+
+for (let i = 0; i < animals.length; i++) {
+    if (animals[i][0] === "C" || animals[i][0] === "D") {
+        console.log(animals[i] + " starts with C or D");
+    } else {
+        console.log(animals[i] + " does not start with C or D");
+    }
+}
+
+
+
+

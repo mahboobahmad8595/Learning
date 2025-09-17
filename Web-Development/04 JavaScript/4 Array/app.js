@@ -2,7 +2,7 @@
 
 
 //! Create Array
-// var fruits = ["Apple" , "Mango" , "Banana"];
+// var fruits = ["Apple" , "Mango"f , "Banana"];
 // console.log(fruits);
 
 

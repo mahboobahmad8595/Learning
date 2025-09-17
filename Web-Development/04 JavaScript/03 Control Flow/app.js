@@ -88,7 +88,7 @@
 //? Continue 
 
 //! Differnt Ways
- 
+
 // var userInput = prompt("Enter a number & Check Even or Odd")
 // if(userInput % 2 === 0){
 //     console.log("Even");
