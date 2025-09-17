@@ -349,4 +349,118 @@
 //     }
 // }
 
+// let fruits = ["Apple","Banana","Mango","Orange","Grapes","Pineapple","Strawberry","Blueberry","Kiwi","Papaya"];
+// let vegetables = ["Carrot","Potato","Tomato","Onion","Cabbage","Spinach","Broccoli","Peas","Corn","Pumpkin"];
+// let numbers = [5,12,7,9,20,15,3,8,11,14];
+// let colors = ["Red","Blue","Green","Yellow","Orange","Purple","Black","White","Pink","Brown"];
+// let animals = ["Cat","Dog","Elephant","Tiger","Lion","Monkey","Giraffe","Zebra","Bear","Fox"];
+// let cities = ["Karachi","Lahore","Islamabad","Quetta","Peshawar","Multan","Faisalabad","Sukkur","Hyderabad","Rawalpindi"];
+// let capitals = ["Islamabad","Lahore","Karachi","Peshawar","Quetta","Multan","Faisalabad","Sukkur","Hyderabad","Rawalpindi"];
+// let grades = ["A","B","C","D","F"];
+// let randomNumbers = [];
+// for(let i=0;i<100;i++){randomNumbers.push(Math.floor(Math.random()*200));}
 
+// for(let i=0;i<fruits.length;i++){if(fruits[i].length>5){console.log(fruits[i]+" has more than 5 letters");}else{console.log(fruits[i]+" has 5 or less letters");}}
+// for(let i=0;i<vegetables.length;i++){if(vegetables[i].includes("o")){console.log(vegetables[i]+" contains 'o'");}else{console.log(vegetables[i]+" does not contain 'o'");}}
+// for(let i=0;i<numbers.length;i++){if(numbers[i]%2===0){console.log(numbers[i]+" is even");}else{console.log(numbers[i]+" is odd");}}
+// for(let i=0;i<colors.length;i++){if(colors[i].length<=4){console.log(colors[i]+" is short");}else{console.log(colors[i]+" is long");}}
+// for(let i=0;i<animals.length;i++){if(animals[i][0]==="C"||animals[i][0]==="D"){console.log(animals[i]+" starts with C or D");}else{console.log(animals[i]+" does not start with C or D");}}
+
+// let mixedArray = [fruits,vegetables,numbers,colors,animals];
+// for(let i=0;i<mixedArray.length;i++){for(let j=0;j<mixedArray[i].length;j++){if(typeof mixedArray[i][j]==="number"){if(mixedArray[i][j]>100){console.log(mixedArray[i][j]+" > 100");}else{console.log(mixedArray[i][j]+" <= 100");}}else{if(mixedArray[i][j].length%2===0){console.log(mixedArray[i][j]+" has even letters");}else{console.log(mixedArray[i][j]+" has odd letters");}}}}
+
+// let students=[{name:"Ali",marks:85},{name:"Ahmed",marks:55},{name:"Sara",marks:92},{name:"Zara",marks:65},{name:"Hassan",marks:45},{name:"Sami",marks:75},{name:"Ayesha",marks:88},{name:"Usman",marks:50}];
+// for(let i=0;i<students.length;i++){if(students[i].marks>=80){console.log(students[i].name+" got A");}else if(students[i].marks>=60){console.log(students[i].name+" got B");}else{console.log(students[i].name+" failed");}}
+
+// for(let i=0;i<5;i++){for(let j=1;j<=5;j++){console.log("Row "+i+" Column "+j);}}
+// for(let i=0;i<50;i++){let num=Math.floor(Math.random()*100)+1;if(num%5===0&&num%2===0){console.log(num+" divisible by 2 and 5");}else if(num%5===0){console.log(num+" divisible by 5");}else if(num%2===0){console.log(num+" divisible by 2");}else{console.log(num+" odd not divisible by 5");}}
+
+// for(let i=0;i<cities.length;i++){if(cities[i]===capitals[i]){console.log(cities[i]+" is a capital");}else{console.log(cities[i]+" is not a capital");}}
+
+// for(let i=0;i<20;i++){let randomGrade=grades[Math.floor(Math.random()*grades.length)];if(randomGrade==="A"||randomGrade==="B"){console.log("Excellent: "+randomGrade);}else if(randomGrade==="C"){console.log("Average: "+randomGrade);}else{console.log("Needs Improvement: "+randomGrade);}}
+
+// let matrix=[];for(let i=0;i<10;i++){let row=[];for(let j=0;j<10;j++){row.push(Math.floor(Math.random()*50));}matrix.push(row);}
+// for(let i=0;i<matrix.length;i++){for(let j=0;j<matrix[i].length;j++){if(matrix[i][j]%2===0){console.log(matrix[i][j]+" is even");}else{console.log(matrix[i][j]+" is odd");}}}
+
+// for(let i=0;i<20;i++){let arr=[];for(let j=0;j<10;j++){arr.push(Math.floor(Math.random()*200));}for(let k=0;k<arr.length;k++){if(arr[k]>100){console.log(arr[k]+" >100");}else if(arr[k]>50){console.log(arr[k]+" 51-100");}else{console.log(arr[k]+" <=50");}}}
+
+// let primeNumbers=[];for(let i=2;i<50;i++){let prime=true;for(let j=2;j<i;j++){if(i%j===0){prime=false;break;}}if(prime){primeNumbers.push(i);}}for(let i=0;i<primeNumbers.length;i++){console.log(primeNumbers[i]+" is prime");}
+
+// let fibonacci=[0,1];for(let i=2;i<20;i++){fibonacci[i]=fibonacci[i-1]+fibonacci[i-2];}for(let i=0;i<fibonacci.length;i++){console.log("Fibonacci: "+fibonacci[i]);}
+
+// let multiplicationTable=[];for(let i=1;i<=10;i++){for(let j=1;j<=10;j++){multiplicationTable.push(i*j);}}for(let i=0;i<multiplicationTable.length;i++){console.log("Table Value: "+multiplicationTable[i]);}
+
+// let userInputNumbers=[23,45,12,67,34,89,10,5,78,56];for(let i=0;i<userInputNumbers.length;i++){if(userInputNumbers[i]%3===0){console.log(userInputNumbers[i]+" divisible by 3");}else{console.log(userInputNumbers[i]+" not divisible by 3");}}
+
+// let temperatures=[34,29,31,28,35,32,30,27,36,33];for(let i=0;i<temperatures.length;i++){if(temperatures[i]>32){console.log(temperatures[i]+" Hot");}else if(temperatures[i]>=30){console.log(temperatures[i]+" Warm");}else{console.log(temperatures[i]+" Cool");}}
+
+// let scores=[100,75,88,45,67,95,80,55];for(let i=0;i<scores.length;i++){if(scores[i]>=90){console.log(scores[i]+" Excellent");}else if(scores[i]>=70){console.log(scores[i]+" Good");}else if(scores[i]>=50){console.log(scores[i]+" Average");}else{console.log(scores[i]+" Poor");}}
+
+// for(let i=0;i<10;i++){for(let j=0;j<10;j++){let value=i*j;if(value%2===0){console.log(value+" Even");}else{console.log(value+" Odd");}}}
+
+// let shoppingCart=[{item:"Shirt",price:1200,qty:2},{item:"Pants",price:1500,qty:1},{item:"Shoes",price:3000,qty:1},{item:"Hat",price:500,qty:3}];
+// for(let i=0;i<shoppingCart.length;i++){let total=shoppingCart[i].price*shoppingCart[i].qty;if(total>2000){console.log(shoppingCart[i].item+" Total: "+total+" High");}else{console.log(shoppingCart[i].item+" Total: "+total+" Low");}}
+
+// let numbers2=[];for(let i=1;i<=50;i++){numbers2.push(i);}for(let i=0;i<numbers2.length;i++){if(numbers2[i]%2===0){console.log(numbers2[i]+" is Even");}else{console.log(numbers2[i]+" is Odd");}}
+
+// let randomArray=[];for(let i=0;i<30;i++){randomArray.push(Math.floor(Math.random()*100));}for(let i=0;i<randomArray.length;i++){if(randomArray[i]<50){console.log(randomArray[i]+" less than 50");}else if(randomArray[i]<80){console.log(randomArray[i]+" between 50-79");}else{console.log(randomArray[i]+" 80 or more");}}
+
+// let letters=["a","b","c","d","e","f","g","h","i","j"];for(let i=0;i<letters.length;i++){if(letters[i]==="a"||letters[i]==="e"||letters[i]==="i"||letters[i]==="o"||letters[i]==="u"){console.log(letters[i]+" is vowel");}else{console.log(letters[i]+" is consonant");}}
+
+// let products=["Laptop","Keyboard","Mouse","Monitor","Printer","Tablet","Camera","Speaker","Charger","USB"];for(let i=0;i<products.length;i++){if(products[i].length>5){console.log(products[i]+" Long name");}else{console.log(products[i]+" Short name");}}
+
+// let ages=[12,25,17,30,45,60,10,18,22,35];for(let i=0;i<ages.length;i++){if(ages[i]>=18){console.log(ages[i]+" Adult");}else{console.log(ages[i]+" Minor");}}
+
+// let data=[1,2,3,4,5,6,7,8,9,10];for(let i=0;i<data.length;i++){for(let j=0;j<data.length;j++){if(data[i]+data[j]>10){console.log(data[i]+"+"+data[j]+" >10");}else{console.log(data[i]+"+"+data[j]+" <=10");}}}
+
+// let letters2=["x","y","z","a","b","c"];for(let i=0;i<letters2.length;i++){if(letters2[i]==="a"||letters2[i]==="e"||letters2[i]==="i"||letters2[i]==="o"||letters2[i]==="u"){console.log(letters2[i]+" vowel");}else{console.log(letters2[i]+" consonant");}}
+
+// let scores2=[50,60,70,80,90,100];for(let i=0;i<scores2.length;i++){if(scores2[i]>=90){console.log(scores2[i]+" A");}else if(scores2[i]>=80){console.log(scores2[i]+" B");}else if(scores2[i]>=70){console.log(scores2[i]+" C");}else if(scores2[i]>=60){console.log(scores2[i]+" D");}else{console.log(scores2[i]+" F");}}
+
+// for(let i=1;i<=10;i++){for(let j=1;j<=10;j++){let value=i+j;if(value%2===0){console.log(value+" Even");}else{console.log(value+" Odd");}}}
+
+// let randomLetters=[];for(let i=0;i<50;i++){let chars="abcdefghijklmnopqrstuvwxyz";randomLetters.push(chars[Math.floor(Math.random()*chars.length)]);}for(let i=0;i<randomLetters.length;i++){if("aeiou".includes(randomLetters[i])){console.log(randomLetters[i]+" vowel");}else{console.log(randomLetters[i]+" consonant");}}
+
+// let teamScores=[12,15,9,20,18,25,30,17,22,19];for(let i=0;i<teamScores.length;i++){if(teamScores[i]>=20){console.log(teamScores[i]+" Win");}else{console.log(teamScores[i]+" Loss");}}
+
+// let items=["Pen","Pencil","Eraser","Sharpener","Notebook","Book","Bag","Ruler","Marker","Glue"];for(let i=0;i<items.length;i++){if(items[i].length>4){console.log(items[i]+" Long");}else{console.log(items[i]+" Short");}}
+
+// let numbers3=[];for(let i=0;i<100;i++){numbers3.push(Math.floor(Math.random()*300));}for(let i=0;i<numbers3.length;i++){if(numbers3[i]%10===0){console.log(numbers3[i]+" divisible by 10");}else{console.log(numbers3[i]+" not divisible by 10");}}
+
+// for(let i=1;i<=15;i++){let row="";for(let j=1;j<=i;j++){row+=j+" ";}console.log(row);}
+
+// let shoppingList=["Milk","Eggs","Bread","Butter","Cheese","Juice","Apple","Banana","Tomato","Potato"];for(let i=0;i<shoppingList.length;i++){if(shoppingList[i].length>5){console.log(shoppingList[i]+" Long");}else{console.log(shoppingList[i]+" Short");}}
+
+// let temperatures2=[12,15,18,20,22,25,28,30,32,35];for(let i=0;i<temperatures2.length;i++){if(temperatures2[i]<15){console.log(temperatures2[i]+" Cold");}else if(temperatures2[i]<25){console.log(temperatures2[i]+" Mild");}else{console.log(temperatures2[i]+" Hot");}}
+
+// let points=[5,10,15,20,25,30,35,40,45,50];for(let i=0;i<points.length;i++){if(points[i]%5===0){console.log(points[i]+" multiple of 5");}else{console.log(points[i]+" not multiple of 5");}}
+
+// for(let i=1;i<=5;i++){for(let j=1;j<=5;j++){let value=i*j;if(value%2===0){console.log(value+" Even");}else{console.log(value+" Odd");}}}
+
+// let players=["John","Mike","Sara","Anna","Paul","Kate","Tom","Lucy","James","Nina"];for(let i=0;i<players.length;i++){if(players[i].length>4){console.log(players[i]+" Long");}else{console.log(players[i]+" Short");}}
+
+// let randomNums=[];for(let i=0;i<100;i++){randomNums.push(Math.floor(Math.random()*500));}for(let i=0;i<randomNums.length;i++){if(randomNums[i]>250){console.log(randomNums[i]+" >250");}else{console.log(randomNums[i]+" <=250");}}
+
+// let letters3=["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t"];for(let i=0;i<letters3.length;i++){if("aeiou".includes(letters3[i])){console.log(letters3[i]+" vowel");}else{console.log(letters3[i]+" consonant");}}
+
+// let nums=[1,2,3,4,5,6,7,8,9,10];for(let i=0;i<nums.length;i++){if(nums[i]%2===0){console.log(nums[i]+" Even");}else{console.log(nums[i]+" Odd");}}
+
+// for(let i=0;i<10;i++){for(let j=0;j<10;j++){let sum=i+j;if(sum>10){console.log(sum+" >10");}else{console.log(sum+" <=10");}}}
+
+// let colors2=["Red","Blue","Green","Yellow","Purple","Orange","Pink","Brown","Black","White"];for(let i=0;i<colors2.length;i++){if(colors2[i].length>4){console.log(colors2[i]+" Long");}else{console.log(colors2[i]+" Short");}}
+
+// let nums2=[];for(let i=0;i<50;i++){nums2.push(Math.floor(Math.random()*100));}for(let i=0;i<nums2.length;i++){if(nums2[i]%3===0){console.log(nums2[i]+" divisible by 3");}else{console.log(nums2[i]+" not divisible by 3");}}
+
+// for(let i=1;i<=5;i++){for(let j=1;j<=i;j++){let val=i*j;console.log(val);}}
+
+// let students2=[{name:"Ali",score:45},{name:"Sara",score:85},{name:"John",score:60},{name:"Anna",score:75}];for(let i=0;i<students2.length;i++){if(students2[i].score>=70){console.log(students2[i].name+" Pass");}else{console.log(students2[i].name+" Fail");}}
+
+// let letters4=["a","b","c","d","e","f","g","h","i","j"];for(let i=0;i<letters4.length;i++){if(["a","e","i","o","u"].includes(letters4[i])){console.log(letters4[i]+" vowel");}else{console.log(letters4[i]+" consonant");}}
+
+// let nums3=[10,20,30,40,50,60,70,80,90,100];for(let i=0;i<nums3.length;i++){if(nums3[i]%20===0){console.log(nums3[i]+" divisible by 20");}else{console.log(nums3[i]+" not divisible by 20");}}
+
+// for(let i=1;i<=10;i++){let str="";for(let j=1;j<=i;j++){str+="*";}console.log(str);}
+
+// let animals2=["Cat","Dog","Elephant","Tiger","Lion","Monkey","Giraffe","Zebra","Bear","Fox"];for(let i=0;i<animals2.length;i++){if(animals2[i].length>4){console.log(animals2[i]+" Long");}else{console.log(animals2[i]+" Short");}}
+
+// let numbers4=[];for(let i=0;i<100;i++){numbers4.push(Math.floor(Math.random()*1000));}for(let i=0;i<numbers4.length;i++)
