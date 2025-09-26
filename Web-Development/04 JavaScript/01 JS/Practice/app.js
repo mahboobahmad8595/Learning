@@ -180,6 +180,8 @@
 // 5 <= 5 True  → 24 = 24 * 5; = 120
 // 6 <= 5 False
 
+//!  
+
 // let fruits = ["Apple", "Banana", "Mango", "Orange", "Grapes", "Pineapple", "Strawberry", "Blueberry", "Kiwi", "Papaya"];
 // let vegetables = ["Carrot", "Potato", "Tomato", "Onion", "Cabbage", "Spinach", "Broccoli", "Peas", "Corn", "Pumpkin"];
 // let numbers = [5, 12, 7, 9, 20, 15, 3, 8, 11, 14];

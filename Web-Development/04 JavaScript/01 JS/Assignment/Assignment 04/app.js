@@ -52,3 +52,40 @@
 // }
 
 //! Ans 07
+
+// var items = ["cake", "apple" , "pie", "cookie", "chips", "patties"]
+// var userInput = prompt("Enter a Item");
+// userInput = userInput.toLowerCase().trim()
+// var found = false;
+// for(var i = 0; i < items.length; i++){
+//     if(userInput === items[i]){
+//         found = true;
+//         break;
+//     }
+// }
+
+// if(found){
+//     console.log(userInput + " is available");
+// }
+// else{
+//     console.log(userInput + " is not available");
+// }
+
+//! Ans 08
+
+// var num = [24, 53, 78, 91, 12];
+// var largest = num[0]
+
+// for(var i = 0; i < num.length; i++){
+//     if(num[i] > largest){
+//         largest = num[i]
+//     }
+// }
+// console.log("Largest Num is " + largest);
+
+
+// num 24 > 24 largest  false
+// num 53 > 24 largest  true
+// num 78 > 53 largest  true
+// num 91 > 78 largest  true
+// num 12 > 91 largest  false
