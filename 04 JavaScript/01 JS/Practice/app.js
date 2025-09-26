@@ -180,8 +180,6 @@
 // 5 <= 5 True  → 24 = 24 * 5; = 120
 // 6 <= 5 False
 
-//!  
-
 // let fruits = ["Apple", "Banana", "Mango", "Orange", "Grapes", "Pineapple", "Strawberry", "Blueberry", "Kiwi", "Papaya"];
 // let vegetables = ["Carrot", "Potato", "Tomato", "Onion", "Cabbage", "Spinach", "Broccoli", "Peas", "Corn", "Pumpkin"];
 // let numbers = [5, 12, 7, 9, 20, 15, 3, 8, 11, 14];
@@ -466,3 +464,10 @@
 // let animals2=["Cat","Dog","Elephant","Tiger","Lion","Monkey","Giraffe","Zebra","Bear","Fox"];for(let i=0;i<animals2.length;i++){if(animals2[i].length>4){console.log(animals2[i]+" Long");}else{console.log(animals2[i]+" Short");}}
 
 // let numbers4=[];for(let i=0;i<100;i++){numbers4.push(Math.floor(Math.random()*1000));}for(let i=0;i<numbers4.length;i++)
+
+
+// console.log(-"2 + 5");
+// console.log(+"2 + 5");
+// console.log(+"2");
+// console.log(-"2");
+
