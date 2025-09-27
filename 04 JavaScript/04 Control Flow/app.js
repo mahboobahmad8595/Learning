@@ -1,6 +1,6 @@
 //! Control Flow
 
-// 1. IF                             1 condition              
+// 1. IF                             1 condition
 // 2. IF .. ELSE                     2 options
 // 3. IF .. ELSE IF .. IF            Multiple Options
 // 4. switch
@@ -58,7 +58,6 @@
 // 1. OR GATE           ||          // Koi Ek Value True Ho
 // 2. AND GATE          &&          // Dono Values True hon   (Precidence Zyada)
 
-
 //? AND GATE Example &&
 // var age = prompt("Enter Your Age");
 // var qualification = prompt("Enter Your Qualificaion");
@@ -73,7 +72,6 @@
 // var marks = prompt("Enter Your Marks");
 // var hasAmmount = prompt("Enter Your Amount");
 
-
 //? OR GATE Example
 // if(marks >= 70 || hasAmmount >= 10000){
 //     console.log("You Can Join Us");
@@ -82,10 +80,25 @@
 //     console.log("You Cant Join Us");
 // }
 
+//! Nested
 
-//! Nested 
+// var marks = prompt("Enter Your Marks");
 
-//? Continue 
+// if(marks > 50){
+
+//     if(marks >= 50 && marks <= 69){
+//         console.log("Pass");
+//     }
+//     else if(marks >= 70 && marks <= 89){
+//         console.log("Good");
+//     }
+//     else if(marks >= 90 && marks <= 100){
+//         console.log("Excellent");
+//     }
+// }
+// else{
+//     console.log("Fail");
+// }
 
 //! Differnt Ways
 
@@ -126,3 +139,49 @@
 // else{
 //     alert("Enter a valid operator");
 // }
+
+//! Switch
+
+// var day = +prompt("Enter a Day");
+// switch (day) {
+//   case 1:
+//     console.log("Monday");
+//     break;
+//   case 2:
+//     console.log("Tuesday");
+//     break;
+//   case 3:
+//     console.log("Wednesday");
+//     break;
+//   case 4:
+//     console.log("Thursday");
+//     break;
+//   case 5:
+//     console.log("Friday");
+//     break;
+//   case 6:
+//     console.log("Saturday");
+//     break;
+//   case 7:
+//     console.log("Sunday");
+//     break;
+
+//     default :
+//     console.log("Enter a Valid Number");
+// }
+
+// var age = prompt("Enter Your Age");
+// switch(true){
+
+//     case(age >= 18):
+//     console.log("Adult");
+//     break;
+    
+//     case(age < 18):
+//     console.log("");
+//     break;
+
+//     default: 
+//     console.log("Enter a Valid Num");
+// }
+
