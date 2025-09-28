@@ -33,7 +33,6 @@
 // }
 // console.log(name);
 
-
 // var check = true;
 // if(check === true){
 //     let name = "Mahboob";
@@ -47,7 +46,6 @@
 //     console.log(name);      // Chale ga
 // }
 // console.log(name);          // Nahi chale ga
-
 
 //! Text
 
@@ -104,13 +102,13 @@
 //     console.log(i);
 // }
 
-//! Simple Table 
+//! Simple Table
 // var table = prompt("Enter a Num");
 // for(var i = 1; i <= 10; i++){
 //     console.log(table + " x " + i + " = " + table * i);
 // }
 
-//! Advance Table 
+//! Advance Table
 // var table = prompt("Enter a Num");
 // var times = prompt("How many time do you want to multiply")
 // for(var i = 1; i <= times; i++){
@@ -140,10 +138,10 @@
 
 // var num = [
 //     +prompt("Enter num 1"),
-//     +prompt("Enter num 2"), 
-//     +prompt("Enter num 3"), 
-//     +prompt("Enter num 4"), 
-//     +prompt("Enter num 5") 
+//     +prompt("Enter num 2"),
+//     +prompt("Enter num 3"),
+//     +prompt("Enter num 4"),
+//     +prompt("Enter num 5")
 // ]
 
 // var sum = 0;
@@ -159,11 +157,11 @@
 //     console.log(i);
 // }
 
-//! Simple Factorial 
+//! Simple Factorial
 // var num = prompt("Enter a num to get factorial");
 // console.log(num * (num - 1) * (num - 2) * (num - 3) * (num - 4));
 
-//! Advance Factorial 
+//! Advance Factorial
 // var num = (prompt("Enter a number:"));
 // var factorial = 1;
 
@@ -172,7 +170,7 @@
 // }
 // console.log("Factorial of " + num + " is: " + factorial);
 
-//? Solve 
+//? Solve
 // 1 <= 5 True  → 1 = 1 * 1;   = 1
 // 2 <= 5 True  → 1 = 1 * 2;   = 2
 // 3 <= 5 True  → 2 = 2 * 3;   = 6
@@ -465,9 +463,90 @@
 
 // let numbers4=[];for(let i=0;i<100;i++){numbers4.push(Math.floor(Math.random()*1000));}for(let i=0;i<numbers4.length;i++)
 
-
 // console.log(-"2 + 5");
 // console.log(+"2 + 5");
 // console.log(+"2");
 // console.log(-"2");
 
+// for(var i = 0; i <= 5; i++){
+//     console.log(i);
+// }
+
+//! Explain
+
+// i = 0 <= 5  True  i = 1  print = 0
+// i = 1 <= 5  True  i = 2  print = 1
+// i = 2 <= 5  True  i = 3  print = 2
+// i = 3 <= 5  True  i = 4  print = 3
+// i = 4 <= 5  True  i = 5  print = 4
+// i = 5 <= 5  True  i = 6  print = 5
+// i = 6 <= 5  False
+
+// var arr = [3, 7, 11, 18, 25, 30, 41]
+// var user = prompt("Eenter a num")
+
+// for(var i = 0; i < arr.length; i++){
+//     if(user == 25){
+//         console.log(arr[i]);
+//         break;
+//     }
+// }
+
+// for(var i = 1; i <= 10; i++){
+//     console.log(i);
+//     if(i == 5){
+//         break;
+//     }
+// }
+
+// var numbers = [2, 4, 6, 8, 10];
+
+// for (var i = 0; i < numbers.length; i++) {
+//     if (numbers[i] === 8) {
+//         break; // jese hi 8 mila loop ruk gaya
+//     }
+//     console.log(numbers[i]);
+// }
+
+// var arr = [3, 7, 11, 18, 25, 30, 41];
+
+// for (var i = 0; i < arr.length; i++) {
+//     if (arr[i] === 25) {
+//         break;
+//     }
+// }
+// console.log(arr[i]);
+
+// for(var i = 1; i <= 20; i++){
+//     if(i % 2 === 0){
+//         continue;
+//     }
+//     console.log(i);
+// }
+
+// var arr = [2 , 4 , 6 , 8 , 10]
+
+// for(var i = 0; i < arr.length; i++){
+//     if(arr[i] === 8){
+//         break;
+//     }
+//     console.log(arr[i]);
+// }
+
+// User se ek number lo (for example: 7) aur uski table print karo (1 se 10 tak). Lekin jese hi result 35 ke barabar ho jaye, loop ko break kar do.
+
+// var table = prompt("Enter a num");
+
+// for(var i = 1; i <= 10; i++){
+//     if((table * i) === 35){
+//         break;
+//     }
+//     console.log(table + " x " + i + " = " + table * i);
+// }
+
+// for(var i = 1; i <= 30; i++){
+//     if(i % 3 === 0){
+//         continue;
+//     }
+//     console.log(i);
+// }
