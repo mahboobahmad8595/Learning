@@ -550,3 +550,138 @@
 //     }
 //     console.log(i);
 // }
+
+
+// for(var i = 1; i <= 100; i++){
+
+//     if(i % 2 === 0){
+//         console.log(i + " is Even ");
+//     }
+//     else if(i % 2 === 1){
+//         console.log(i + " is odd ");
+//     }
+// }
+
+// var counting = [
+//     [1 , 2 , 3 , 4 , 5 , 6 , 7 , 8 , 9 , 10] ,
+//     [11 , 12 , 13 , 14 , 15 , 16 , 17 , 18 , 19 , 20] ,
+//     [21 , 22 , 23 , 24 , 25 , 26 , 27 , 28 , 29 , 30] ,
+//     [31 , 32 , 33 , 34 , 35 , 36 , 37 , 38 , 39 , 40] ,
+//     [41 , 42 , 43 , 44 , 45 , 46 , 47 , 48 , 49 , 50] ,
+//     [51 , 52 , 53 , 54 , 55 , 56 , 57 , 58 , 59 , 60] ,
+//     [61 , 62 , 63 , 64 , 65 , 66 , 67 , 68 , 69 , 70] ,
+//     [71 , 72 , 73 , 74 , 75 , 76 , 77 , 78 , 79 , 80] ,
+//     [81 , 82 , 83 , 84 , 85 , 86 , 87 , 88 , 89 , 90] ,
+//     [91 , 92 , 93 , 94 , 95 , 96 , 97 , 98 , 99 , 100] 
+// ]
+
+// for(var i = 0; i < counting.length; i++){
+
+//     console.log(counting[i]);
+    
+// }
+
+// for(var i = 2; i <= 5; i++){
+
+//     for(var j = 1; j <= 10; j++){
+//         document.write(i + ' x ' + j + " = " + i*j + "<br />");
+//     }
+    
+// }
+
+// for(var i = 1; i <= 5; i++){
+
+//     for(var j = 1; j <= 1; j++){
+//         var star = "*****" 
+//         console.log(star);
+//     }
+    
+// }
+
+//  
+
+// var num = [10 , 20 , 30 , 40]
+// var sum = 0
+
+// for(var i = 0; i < num.length; i++){
+//     sum += num[i]
+// }
+// console.log(sum);
+ 
+// var cities = ["Karachi" , "Multan" , "Islamabad"];
+// var cleanestCities = prompt("Enter a city Name")
+
+// for(var i = 0; i < cities.length; i++){
+    
+//     var isFound = false;
+//     if(cleanestCities === cities[i]){
+
+//         isFound = true;
+//         console.log("Found");
+//         break;
+//     }
+// }
+
+// if(!isFound){
+//     console.log("Not Found");
+// }
+
+// var num = [2 , 4 , 6 , 8 , 10]
+// var userInput = +prompt("Enter a number")
+
+// for(var i = 0; i < num.length; i++){
+
+//     var isFound = false;
+//     if(userInput === num[i]){
+        
+//         isFound = true;
+//         console.log("Yes. Number Found!");
+//         break;
+//     }
+// }
+
+// if(!isFound){
+//     console.log("No. Number Not Found!");
+// }
+
+// var userInput = prompt("Enter Your Password")
+// var password = ["malik" , "mahboob" , "ahmad"]
+
+// for(var i = 0; i < userInput.length; i++){
+
+//     var isFound = false;
+//     if(userInput === password[i]){
+
+//         isFound = true;
+//         console.log("Acces Granted");
+//         break;
+//     }    
+// }
+
+// if(!isFound){
+//     console.log("Access Denied");
+// }
+
+// var table = prompt("Enter a Table Number")
+// var limit = prompt("How many times do you want to multiply")
+
+// for(var i = 1; i <= limit; i++){
+//     console.log(table + " x " + i + " = " + table*i);
+// }
+
+// var data = [
+//     ["Mahboob" , "10" , "Urdu"],
+//     ["Ahmad" , "9" , "Math"],
+//     ["Khan" , "8" , "English"],
+// ]
+
+// for(var i = 0; i < data.length; i++){
+
+//     for(var j = 0; j < data[i].length; j++){
+
+//         console.log(data[i][j]);
+        
+//     }
+    
+// }
+

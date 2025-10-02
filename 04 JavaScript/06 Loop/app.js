@@ -188,5 +188,26 @@
 // }
 
 
+//! Flag
+
+// var cities = ["Karachi" , "Multan" , "Islamabad"];
+// var cleanestCities = prompt("Enter a city Name")
+
+// for(var i = 0; i < cities.length; i++){
+    
+//     var isFound = false;
+//     if(cleanestCities === cities[i]){
+
+//         isFound = true;
+//         console.log("Found");
+//         break;
+//     }
+// }
+
+// if(!isFound){
+//     console.log("Not Found");
+// }
+
+
 
  
