@@ -685,3 +685,28 @@
     
 // }
 
+// var marks = [
+//     ["Mahboob", [100 , 90 , 80]],
+//     ["Ahmad", [90 , 80 , 70]],
+//     ["Khan", [80 , 70 , 60]]
+// ]
+
+// console.log("Student " + marks[0][0] + " marks is " + marks[0][1]);
+// console.log("Student " + marks[1][0] + " marks is " + marks[1][1]);
+// console.log("Student " + marks[2][0] + " marks is " + marks[2][1]);
+
+// var marks = [
+//     ["Mahboob", [100 , 90 , 80]],
+//     ["Ahmad", [90 , 80 , 70]],
+//     ["Khan", [80 , 70 , 60]]
+// ]
+
+// for(var i = 0; i < marks.length; i++){
+
+//     for(var j = 0; j < marks[i].length; j++){
+        
+//         console.log("Student " + marks[i][0] + " marks is " + marks[i][1]);
+
+//     }
+    
+// }
