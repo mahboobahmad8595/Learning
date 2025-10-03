@@ -710,3 +710,38 @@
 //     }
     
 // }
+
+
+// var marks = [
+//     ["Ali", [80,90,70]],
+//     ["Omar", [85,95,100]],
+//     ["Ahmed", [60,75,65]]
+// ];
+
+// console.log("Student " + marks[0][0] + " marks is " + marks[0][1]);
+// console.log("Student " + marks[1][0] + " marks is " + marks[1][1]);
+// console.log("Student " + marks[2][0] + " marks is " + marks[2][1]);
+
+// var matrix = [
+//     [1,2,3],
+//     [4,5,6],
+//     [7,8,9]
+// ];
+
+
+// for(var i = 0; i < matrix.length; i++){
+
+//     console.log(matrix[i]);
+
+// }
+
+
+// for(var i =0 ; i < matrix.length; i++){
+
+//     for(var j = 0; j < matrix[i].length; j++){
+
+
+//         console.log("Row " + i + " Column " + j + " = " + matrix[i][j]);
+
+
+//     }
