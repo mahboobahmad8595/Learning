@@ -745,3 +745,33 @@
 
 
 //     }
+
+// var userName = prompt("Enter your name please").toLowerCase()
+
+// if (userName === "mahboob") {
+//     console.log("My name is " + userName);
+// } else {
+//     console.log("Please enter your name");
+// }
+
+var fruits = ["apple" , "mango" , "banana"];
+// var user = prompt("Enter a Fruit Name").toLocaleLowerCase()
+
+// for(var i = 0; i < fruits.length; i++){
+
+//     var isFound = false;
+//     if(user === fruits[i]){
+//         isFound = true;
+//         console.log("Found");
+//         break;
+//     }
+// }
+
+// if(!isFound){
+//     console.log("Not Found");
+// }
+
+//! Methods
+
+// 1. .toUpperCase() 
+// 2. .toLowerCase() 
