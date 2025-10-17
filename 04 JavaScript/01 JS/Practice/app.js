@@ -754,7 +754,7 @@
 //     console.log("Please enter your name");
 // }
 
-var fruits = ["apple" , "mango" , "banana"];
+// var fruits = ["apple" , "mango" , "banana"];
 // var user = prompt("Enter a Fruit Name").toLocaleLowerCase()
 
 // for(var i = 0; i < fruits.length; i++){
@@ -771,7 +771,24 @@ var fruits = ["apple" , "mango" , "banana"];
 //     console.log("Not Found");
 // }
 
+// var name = "Mahboob"
+// console.log(name.length);
+
+
 //! Methods
 
-// 1. .toUpperCase() 
-// 2. .toLowerCase() 
+//   prompt()
+//   alert()
+//  .unshift()
+//  .shift()
+//  .push()
+//  .pop()
+//  .splice()
+//  .slice()
+//  .toUpperCase() 
+//  .toLowerCase() 
+//  .length()
+
+
+//! Methods
+
